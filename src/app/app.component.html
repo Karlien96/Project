@@ -1,0 +1,47 @@
+<div style="margin: 50px;" fxFlex fxLayout="column" fxLayoutGap="10px" style="height:100vh">
+
+
+<h1>Raad het getal tussen 1 en 100</h1>
+<h2>Je hebt 60 seconden en 10 beurten.</h2>
+
+<div fxLayout="row wrap">
+
+    <div fxFlex="50" fxLayout="column" fxFlex.lt-md="100">
+
+      <form id="clear">
+        <input type="number" onfocus="this.value=''" ng-model="value" id="degok">
+      </form>
+      <p></p>
+      
+      <button id="getal" mat-raised-button color="primary" (click)=gok()>GOKKEN</button>
+
+    </div>
+
+    <div fxFlex="50" fxLayout="column" fxFlex.lt-md="100">
+
+      <p>Je hebt nog {{aantalBeurten}} beurten.</p>
+      <p>Timer :</p>
+      <div id="countdown">60</div>
+
+      <table>
+        <tr>
+          <th>Jouw gok</th>
+          <th>Hint</th>
+        </tr>
+        <tr>
+          <td>{{degok}}</td>
+          <td>{{hint}}</td>
+        </tr>
+      </table>
+
+    </div>
+
+
+</div>
+
+
+
+
+
+
+</div>

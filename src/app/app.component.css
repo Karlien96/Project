@@ -1,0 +1,34 @@
+table, th, td {
+    padding: 10px;
+    border: 1px solid black; 
+    border-collapse: collapse;
+    text-align: center;
+    align-self: center;
+    background-color: white;
+}
+
+* {
+    text-align: center;
+    background-color:#FFDCE1;
+}
+
+input {
+    background-color: white;
+}
+
+button {
+    background-color: deeppink;
+    color: white;
+    padding: 10px 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 50%;
+    align-self: center;
+}
+
+th {
+    background-color: deeppink;
+}
